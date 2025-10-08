@@ -1,0 +1,13 @@
+# Trivy ignore file for suppressing known false positives or accepted risks
+# Format: CVE-YYYY-NNNN or vulnerability ID
+
+# Example: Alpine package manager vulnerabilities that are false positives
+# CVE-2023-5363  # libxml2 - false positive for our use case
+# CVE-2023-4641  # shadow-utils - not applicable in container context
+
+# OpenJDK/JRE vulnerabilities that may not be applicable
+# Add specific CVEs here after security team review
+# Format: CVE-YYYY-NNNN
+
+# Note: Only add entries here after proper security review and approval
+# Each entry should have a comment explaining why it's acceptable

@@ -1,0 +1,70 @@
+# Git files
+.git
+.gitignore
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Build outputs
+target/
+build/
+out/
+*.class
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test reports
+junit/
+jacoco.xml
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Maven wrapper (optional - remove if you want to include it)
+.mvn/wrapper/maven-wrapper.jar
+
+# Documentation that doesn't need to be in image
+README.md
+*.md
+LICENSE
+docs/
+
+# CI/CD files
+azure-pipelines.yml
+.github/
+.gitlab-ci.yml
+Jenkinsfile
+
+# Helm charts (if not needed in container)
+helm-chart/
+
+# Test files (if not needed in production image)
+src/test/
+
+# Development scripts
+*.sh
+validate-deployment.sh
+setup-azure-resources.sh
